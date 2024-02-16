@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonder Crust - Bread for Health and Taste</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5; /* Light gray background */
+            color: #333; /* Dark gray text */
+            overflow-x: hidden; /* Hide horizontal scrollbar */
+        }
+        /* Header Styles */
+        header {
+            background-color: #442e1f; /* Dark brown header */
+            padding: 20px;
+            text-align: left; /* Align left */
+            color: #fff; /* White text */
+            border-radius: 10px; /* Rounded corners */
+            margin: 20px;
+        }
+        h1, h2 {
+            margin: 0;
+            font-weight: bold; /* Bold font */
+            text-transform: uppercase; /* Uppercase text */
+        }
+        /* Main Navigation Styles */
+        nav {
+            background-color: #5c4030; /* Darker brown navigation */
+            padding: 10px;
+            text-align: center;
+            color: #fff; /* White text */
+            position: sticky; /* Stick to the top */
+            top: 0;
+            z-index: 100; /* Ensure navigation is above other content */
+            border-radius: 10px; /* Rounded corners */
+            margin: 20px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 50px; /* Increased margin */
+            transition: transform 0.2s ease; /* Add smooth transition */
+        }
+        nav ul li:hover {
+            transform: translateY(-3px); /* Move up on hover */
+            color: #442e1f; /* Dark brown text */
+        }
+        /* Main Content Styles */
+        .main-content {
+            padding: 30px; /* Reduced padding */
+            text-align: left; /* Align left */
+            color: #333; /* Dark gray text */
+        }
+        .health-benefits {
+            background-color: #fff; /* White background */
+            padding: 50px;
+            margin-top: 20px; /* Increased margin */
+            border-radius: 10px; /* Rounded corners */
+            margin: 20px;
+        }
+        .health-benefits h2 {
+            font-size: 24px;
+            font-weight: bold; /* Bold font */
+            text-transform: uppercase; /* Uppercase text */
+            margin-bottom: 20px;
+        }
+        .health-benefits ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        /* Premium Range Styles */
+        .premium-range {
+            background-color: #000; /* Black background */
+            color: #fff; /* White text */
+            padding: 20px;
+            margin-top: 20px; /* Increased margin */
+            text-align: left;
+            border-radius: 10px; /* Rounded corners */
+            margin: 20px;
+        }
+        .premium-range h2 {
+            font-size: 24px;
+            font-weight: bold; /* Bold font */
+            text-transform: uppercase; /* Uppercase text */
+            margin-bottom: 20px;
+        }
+        .premium-range p {
+            font-style: italic;
+        }
+        /* Sign-in Section Styles */
+        .sign-in-section {
+            background-color: #5c4030; /* Darker brown background */
+            color: #fff; /* White text */
+            padding: 20px;
+            position: fixed; /* Fixed position */
+            top: 0;
+            right: 0;
+            z-index: 200; /* Ensure sign-in is above other content */
+            border-radius: 10px; /* Rounded corners */
+            margin: 20px;
+        }
+        .sign-in-section a {
+            color: #fff; /* White text */
+            text-decoration: none; /* Remove underline */
+            margin-left: 20px;
+        }
+        /* Newsletter Section Styles */
+        .newsletter-section {
+            background-color: #442e1f; /* Dark brown background */
+            color: #fff; /* White text */
+            padding: 20px;
+            margin-top: 20px; /* Increased margin */
+            text-align: center;
+            border-radius: 10px; /* Rounded corners */
+            margin: 20px;
+        }
+        .newsletter-section h2 {
+            font-size: 24px;
+            font-weight: bold; /* Bold font */
+            text-transform: uppercase; /* Uppercase text */
+            margin-bottom: 20px;
+        }
+        .newsletter-section input[type="email"] {
+            padding: 10px;
+            border-radius: 5px; /* Rounded corners */
+            border: 1px solid #ccc; /* Light gray border */
+            margin-right: 10px;
+        }
+        .newsletter-section input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #e60000; /* Red button */
+            color: #fff; /* White text */
+            border: none;
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer;
+        }
+        /* Footer Styles */
+        footer {
+            background-color: #442e1f; /* Dark brown footer */
+            padding: 20px;
+            text-align: center;
+            color: #fff; /* White text */
+            border-radius: 10px; /* Rounded corners */
+            margin: 20px;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Wonder Crust</h1>
+        <div style="font-size: 36px; font-weight: bold; text-transform: uppercase; margin-top: 10px;">3-1 Bread : Sehat, Gunwatta aur Swaad</div>
+    </header>
+
+    <!-- Main Navigation Section -->
+    <nav>
+        <ul>
+            <li><a href="#health-benefits"><strong>Health Benefits</strong></a></li>
+            <li><a href="#premium-range"><strong>Premium Range</strong></a></li>
+            <li><a href="#about"><strong>About</strong></a></li>
+            <li><a href="#products"><strong>Products</strong></a></li>
+            <li><a href="#exports"><strong>Exports</strong></a></li>
+            <li><a href="#careers"><strong>Careers</strong></a></li>
+        </ul>
+    </nav>
+
+    <!-- Sign-in Section -->
+    <div class="sign-in-section">
+        <a href="#sign-in">Sign In</a>
+        <a href="#create-account">Create Account</a>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="main-content">
+        <!-- Health Benefits Section -->
+        <div id="health-benefits" class="health-benefits">
+            <h2>Health Benefits</h2>
+            <ul>
+                <li>Rich in fiber for digestive health</li>
+                <li>Low in saturated fat, promoting heart health</li>
+                <li>Contains essential vitamins and minerals</li>
+                <li>No palm oil - better for you and the environment</li>
+                <li>Boosts energy levels and improves overall well-being</li>
+                <li>Helps maintain a healthy weight</li>
+            </ul>
+            <p>Wonder Crust bread is a nutritious and delicious choice for your daily diet. With its combination of high fiber content, essential nutrients, and low saturated fat, it offers numerous health benefits that support a healthy lifestyle.</p>
+            <p>Our bread is carefully crafted to provide the perfect balance of taste and nutrition, making it a versatile option for any meal or snack. Whether you're looking to improve your digestive health, boost your energy levels, or simply enjoy a tasty treat, Wonder Crust bread has you covered.</p>
+        </div>
+
+        <!-- Premium Range Section -->
+        <div id="premium-range" class="premium-range">
+            <h2>Premium Range</h2>
+            <p>Our premium range of bread products is specially designed to meet the highest standards of taste, quality, and nutrition. Made with the finest ingredients and expert craftsmanship, these breads are perfect for discerning consumers who demand nothing but the best.</p>
+            <p>Each loaf of Wonder Crust premium bread is carefully crafted to deliver an exceptional eating experience. From the soft, pillowy texture to the rich, complex flavors, every bite is a delight for the senses.</p>
+            <p>But our premium range is more than just delicious – it's also incredibly nutritious. Packed with fiber, vitamins, and minerals, these breads provide essential nutrients that support overall health and well-being.</p>
+            <p>Whether you're enjoying a slice with your morning coffee or using it to create a gourmet sandwich, Wonder Crust premium breads are sure to impress. Try them today and experience the difference for yourself!</p>
+        </div>
+
+        <!-- About Section -->
+        <div id="about" class="about-section">
+            <h2>About</h2>
+            <p>Wonder Crust offers bread that is not only delicious but also nutritious and of the highest quality. Our bread is made with care and attention to detail to ensure that you get the best tasting and healthiest bread possible.</p>
+            <p class="italic">Experience the richness of our bread that is rich in fiber for digestive health, low in saturated fat, and contains essential vitamins and minerals. Wonder Crust bread is made without palm oil, making it better for you and the environment.</p>
+        </div>
+
+        <!-- Products Section -->
+        <div id="products" class="products-section">
+            <h2>Products</h2>
+            <!-- Add more product details as needed -->
+            <p class="italic">Explore our range of bread products that offer a perfect balance of taste and nutrition.</p>
+            <ul>
+                <li><strong>Whole Wheat Bread:</strong> Made with 100% whole wheat flour, this bread is rich in fiber and essential nutrients.</li>
+                <li><strong>Multigrain Bread:</strong> A delicious blend of whole grains and seeds, this bread provides a variety of nutrients and flavors.</li>
+                <li><strong>Seeded Rye Bread:</strong> Packed with seeds and grains, this bread offers a hearty texture and rich, nutty flavor.</li>
+                <li><strong>Sourdough Bread:</strong> Made with a traditional sourdough starter, this bread has a tangy flavor and chewy texture.</li>
+            </ul>
+        </div>
+
+        <!-- Careers Section -->
+        <div id="careers" class="careers-section">
+            <h2>Careers</h2>
+            <p class="italic">Join our team and be part of an innovative company that is dedicated to providing high-quality bread products to customers worldwide.</p>
+        </div>
+    </div>
+
+    <!-- Newsletter Section -->
+    <div class="newsletter-section">
+        <h2>Subscribe to Our Newsletter</h2>
+        <form action="#" method="POST">
+            <input type="email" name="email" placeholder="Enter your email address" required>
+            <input type="submit" value="Subscribe">
+        </form>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Follow us on social media:</p>
+        <!-- Add social media icons as needed -->
+    </footer>
+</body>
+</html>
+
